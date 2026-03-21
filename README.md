@@ -1,4 +1,4 @@
-DFIR Log Parser 🔐
+##DFIR Log Parser 🔐##
 
 A Python-based Digital Forensics & Incident Response (DFIR) tool that parses Linux login logs and Windows Security Event Logs into CSV or JSON format with optional anomaly detection.
 
