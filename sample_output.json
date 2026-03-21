@@ -1,0 +1,66 @@
+[
+  {
+    "platform": "windows",
+    "type": "USER_PROCESS",
+    "type_id": 4624,
+    "user": "Administrator",
+    "pid": null,
+    "terminal": "N/A",
+    "host": "DESKTOP-123ABC",
+    "ip": "192.168.1.5",
+    "timestamp": 1711020000,
+    "time_readable": "2024-03-21T16:00:00+00:00",
+    "anomalies": [],
+    "is_suspicious": false
+  },
+  {
+    "platform": "windows",
+    "type": "FAILED_LOGIN",
+    "type_id": 4625,
+    "user": "Administrator",
+    "pid": null,
+    "terminal": "N/A",
+    "host": "DESKTOP-123ABC",
+    "ip": "45.33.32.156",
+    "timestamp": 1711020300,
+    "time_readable": "2024-03-21T16:05:00+00:00",
+    "anomalies": [
+      "suspicious_public_ip"
+    ],
+    "is_suspicious": true
+  },
+  {
+    "platform": "windows",
+    "type": "FAILED_LOGIN",
+    "type_id": 4625,
+    "user": "Administrator",
+    "pid": null,
+    "terminal": "N/A",
+    "host": "DESKTOP-123ABC",
+    "ip": "45.33.32.156",
+    "timestamp": 1711020600,
+    "time_readable": "2024-03-21T16:10:00+00:00",
+    "anomalies": [
+      "repeated_failed_logins",
+      "suspicious_public_ip"
+    ],
+    "is_suspicious": true
+  },
+  {
+    "platform": "windows",
+    "type": "USER_PROCESS",
+    "type_id": 4624,
+    "user": "student",
+    "pid": null,
+    "terminal": "N/A",
+    "host": "LAPTOP-45XYZ",
+    "ip": "8.8.8.8",
+    "timestamp": 1711050000,
+    "time_readable": "2024-03-21T23:00:00+00:00",
+    "anomalies": [
+      "off_hours_login",
+      "suspicious_public_ip"
+    ],
+    "is_suspicious": true
+  }
+]
