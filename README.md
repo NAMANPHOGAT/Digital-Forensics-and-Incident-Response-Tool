@@ -25,3 +25,9 @@ A Python-based **Digital Forensics & Incident Response (DFIR)** tool that parses
 ```bash
 pip install pandas python-evtx utmpx
 ```
+
+## TEST
+
+```bash
+python dfir_utmp_parser.py --input Security.evtx --output output.json --format json --anomaly-detection
+```
